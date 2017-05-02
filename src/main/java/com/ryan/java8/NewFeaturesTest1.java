@@ -7,16 +7,18 @@ public class NewFeaturesTest1 {
     public static void main(String[] args) {
         NewFeaturesTest1 test1 = new NewFeaturesTest1();
 
-        MathOperation add = (int a, int b) -> a+b;
+        MathOperation add = (int a, int b) -> a + b;
 
-        MathOperation sub = (a, b) -> a-b;
+        MathOperation sub = (a, b) -> a - b;
 
-        MathOperation multiply = (int a, int b) -> {return a * b;};
+        MathOperation multiply = (int a, int b) -> {
+            return a * b;
+        };
 
-        MathOperation divide = (int a, int b) -> a/b;
+        MathOperation divide = (int a, int b) -> a / b;
 
-        System.out.println("10 + 5 = " + test1.operate(10, 5, add));
-        System.out.println("10 - 5 =" + test1.operate(10,5, sub));
+        System.out.println("10 + 5 =" + test1.operate(10, 5, add));
+        System.out.println("10 - 5 =" + test1.operate(10, 5, sub));
         System.out.println("10 * 5 =" + test1.operate(10, 5, multiply));
         System.out.println("10 / 5 =" + test1.operate(10, 5, divide));
 

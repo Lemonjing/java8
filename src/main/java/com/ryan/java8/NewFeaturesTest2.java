@@ -1,5 +1,7 @@
 package com.ryan.java8;
 
+import java.util.Collection;
+
 /**
  * test lambda scope
  */
