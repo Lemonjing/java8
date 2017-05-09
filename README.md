@@ -3,9 +3,14 @@
 ```
 Lambda Expression、Method Reference
 
-Functional Interface、Default Method、Optional
+Functional Interface、Default & Static Method、Optional Class
 
-Stream and Date/Time API
+Stream 
+
+Date/Time API
+
+Base64
+
 ```
 
 Lambda Expression

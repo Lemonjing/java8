@@ -1,7 +1,9 @@
 package com.ryan.java8;
 
+import java.util.HashSet;
+
 /**
- * test lambda expression
+ * lambda expression
  */
 public class NewFeaturesTest1 {
     public static void main(String[] args) {
